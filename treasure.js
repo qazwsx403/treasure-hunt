@@ -84,7 +84,7 @@ class TreasureMap {
   static openTreasureBox() {
     return new Promise((resolve) => {
       setTimeout(() => {
-        resolve("🏆 恭喜！你打开了箱子，找到了传说中的黄金罗盘与无尽宝藏！");
+        resolve("🏆 恭喜！你找到了传说中的宝藏！！");
       }, 1000);
     });
   }
